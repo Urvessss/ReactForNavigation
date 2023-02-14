@@ -7,6 +7,8 @@ import AccordionPage from './pages/AccordionPage';
 import Header from './componets/Header';
 import  ModelPage  from './pages/ModelPage';
 import TablePage from './pages/TablePage';
+import StateCounter from './pages/StateCounter';
+import ReducerCounter from './pages/ReducerCounter';
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
       <Route path='/act' element={<AccordionPage/>}/>
       <Route path='/model' element={<ModelPage/>}/>
       <Route path='/table' element={<TablePage/>}/>
+      <Route path='/stateCount' element={<StateCounter/>}/>
+      <Route path='/reducerCount' element={<ReducerCounter/>}/>
     </Routes>
     </BrowserRouter>
     </>
