@@ -17,6 +17,9 @@ const Header = () => {
             <li>
                 <Link to ='model'>Model</Link>
             </li>
+            <li>
+                <Link to ='table'>TableSort</Link>
+            </li>
         </ul>
         </div>
     </div>
